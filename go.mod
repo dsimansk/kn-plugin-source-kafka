@@ -10,9 +10,14 @@ require (
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v0.19.7
 	knative.dev/client v0.23.1-0.20210526150728-350b2deffc04
+	knative.dev/client/public v0.0.0-00010101000000-000000000000
 	knative.dev/eventing-kafka v0.23.1-0.20210527160429-a7e5fa6213d3
 	knative.dev/hack v0.0.0-20210428122153-93ad9129c268
 	knative.dev/pkg v0.0.0-20210527064428-35916abaf196
 )
 
 replace github.com/go-openapi/spec => github.com/go-openapi/spec v0.19.3
+
+replace knative.dev/client => github.com/dsimansk/client v0.0.1
+
+replace knative.dev/client/public => github.com/dsimansk/client/public v0.0.1
