@@ -788,7 +788,6 @@ knative.dev/client/pkg/kn/commands
 knative.dev/client/pkg/kn/commands/flags
 knative.dev/client/pkg/kn/config
 knative.dev/client/pkg/kn/flags
-knative.dev/client/pkg/kn/plugin
 knative.dev/client/pkg/messaging/v1
 knative.dev/client/pkg/printers
 knative.dev/client/pkg/serving
@@ -843,7 +842,7 @@ knative.dev/hack
 knative.dev/networking/pkg
 knative.dev/networking/pkg/apis/networking
 knative.dev/networking/pkg/apis/networking/v1alpha1
-# knative.dev/pkg v0.0.0-20210622173328-dd0db4b05c80
+# knative.dev/pkg v0.0.0-20210622173328-dd0db4b05c80 => github.com/dsimansk/pkg v0.0.0-20210701121941-f621c111173c
 ## explicit
 knative.dev/pkg/apis
 knative.dev/pkg/apis/duck
@@ -863,6 +862,8 @@ knative.dev/pkg/injection/clients/dynamicclient
 knative.dev/pkg/injection/clients/dynamicclient/fake
 knative.dev/pkg/kmeta
 knative.dev/pkg/kmp
+knative.dev/pkg/kn/errors
+knative.dev/pkg/kn/plugin
 knative.dev/pkg/leaderelection
 knative.dev/pkg/logging
 knative.dev/pkg/logging/logkey
@@ -937,3 +938,4 @@ sigs.k8s.io/structured-merge-diff/v4/value
 # sigs.k8s.io/yaml v1.2.0
 sigs.k8s.io/yaml
 # github.com/go-openapi/spec => github.com/go-openapi/spec v0.19.3
+# knative.dev/pkg => github.com/dsimansk/pkg v0.0.0-20210701121941-f621c111173c
